@@ -15,7 +15,7 @@ function App() {
       <div style={{margin: '5%'}}>
         <Panel header="Ovo je CMS dio" className="custom-panel">
 
-            <h2><Link className={"link"} to="/com1"><Button severity="secondary" icon="pi pi-desktop" label={"Component 1"}/></Link></h2>
+            <h2><Link className={"link"} to="/com1"><Button severity="secondary" icon="pi pi-desktop" label={"Component 1 - Routing"}/></Link></h2>
             <div style={{paddingTop: "2%"}}></div>
 
           Ovo je CMS dio!
