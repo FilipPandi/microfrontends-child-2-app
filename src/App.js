@@ -12,7 +12,7 @@ import {Button} from "primereact/button";
 
 function App() {
   return (
-      <div style={{margin: '5%'}}>
+      <div style={{margin: '2%'}}>
         <Panel header="Ovo je CMS dio" className="custom-panel">
 
             <h2><Link className={"link"} to="/com1"><Button severity="secondary" icon="pi pi-desktop" label={"Component 1 - Routing"}/></Link></h2>
