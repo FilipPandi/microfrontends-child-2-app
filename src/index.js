@@ -11,7 +11,7 @@ let container = null;
 
 const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/components/cms",
         element: <App/>,
     },
     {

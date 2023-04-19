@@ -39,7 +39,7 @@ function Component1() {
 
                 <div style={{paddingTop: "2%"}}></div>
 
-                <h2><Link className={"link"} to="/"><Button severity="secondary" icon="pi pi-angle-double-left" label={"Back"}/></Link></h2>
+                <h2><Link className={"link"} to="/components/cms"><Button severity="secondary" icon="pi pi-angle-double-left" label={"Back"}/></Link></h2>
             </Panel>
         </div>
     );

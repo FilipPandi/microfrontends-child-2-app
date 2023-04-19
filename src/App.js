@@ -12,16 +12,16 @@ import {Button} from "primereact/button";
 
 function App() {
   return (
-      <div>
-        <Panel header="Ovo je CMS dio" className="custom-panel">
+      <React.Fragment>
+        <Panel style={{margin: '4%'}} header="Ovo je CMS dio" className="custom-panel">
 
             <h2><Link className={"link"} to="/com1"><Button severity="secondary" icon="pi pi-desktop" label={"Component 1 - Routing"}/></Link></h2>
             <div style={{paddingTop: "2%"}}></div>
 
           Ovo je CMS dio!
         </Panel>
-          <Image src="https://wallpapers.com/images/featured/oaax18kaapkokaro.jpg"  alt="Image" preview width="100%" />
-      </div>
+          <Image style={{margin: '1%'}} src="https://wallpapers.com/images/featured/oaax18kaapkokaro.jpg"  alt="Image" preview width="100%" />
+      </React.Fragment>
 
   );
 }
