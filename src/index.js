@@ -18,6 +18,9 @@ const router = createBrowserRouter([
         path: "/com1",
         element: <Component1/>,
     },
+    {
+        path: "/"
+    }
 ]);
 
 window.renderChild2 = (containerId) => {
